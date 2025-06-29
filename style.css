@@ -1,0 +1,119 @@
+
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+@keyframes slideUpFade {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-slide-up {
+    animation: slideUpFade 1s ease-out;
+}
+
+.carousel-caption {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.carousel-caption:hover{
+    color: #c8c8c8;
+}
+.title-container {
+    max-width: 1020px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.section-title {
+    max-width: 1020px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    color: #444444;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+.section-title:hover{
+    color: #666666;
+}
+
+.text-section {
+    max-width: 1020px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.news-section {
+    max-width: 1020px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.quick-access {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+.quick-access img {
+    display: block;
+    margin: 0 auto;
+}
+
+.quick-access h5 {
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.quick-access p {
+    font-size: 0.95rem;
+    color: #555;
+}
+.partners-logos {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+.partner-logo {
+    max-width: 115px;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.partner-logo:hover {
+    transform: scale(1.1);
+}
+
+.logo-wrapper {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
